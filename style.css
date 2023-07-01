@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+/* main-body --> css */
+
+.content-container{
+    margin-top: 40px;
+    background: transparent;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 50px;
+    padding: 10px 0;
+}
+
+.sub-title{
+    color: black;
+    font-weight: 500;
+    font-size: medium;
+    padding: 10px 0;
+}
+
+.buttons-container{
+    padding: 10px 0;
+}
+
+.btn{
+    width: 110px;
+    height: 35px;
+    font-size: medium;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.login{
+    color: white;
+    background-color: black;
+    margin-right: 15px;
+}
+
+.signup{
+    color: black;
+    background: inherit;
+}
+
+.main-container{
+    height: calc(100vh - 100px);
+    background-image: url(img/landingPagePic.png);
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: right bottom;
+    padding: 0 5%;
+}
